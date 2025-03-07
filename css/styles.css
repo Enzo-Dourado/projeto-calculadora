@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #EC6F6F, #8F4343);
+}
+
+.calculadora {
+    width: 400px;
+    height: 450px;
+    border: 1px solid #00000066;
+    margin: 200px auto;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    box-shadow: 1px 1px 7px #00000066; 
+}
+#idTela {
+    width: 87%;
+    height: 40px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 1.2em; 
+    background-color: goldenrod;
+    border: 1px solid #00000066;
+    box-shadow: 1px 1px 7px #00000066;  
+}
+.configs {
+   margin-top: 5%;
+
+}
+
+.div-num {
+    text-align: center;
+   
+}
+.num {
+    width: 100px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: goldenrod;
+    border: 1px solid #00000066;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px #00000066;  
+    transition: .3s;
+}
+
+.num:hover {
+    background-color: #9b7617;
+    cursor: pointer;
+}
+
+#operacoes {
+    margin-left: 45px;
+}
+
+.sub-res {
+    display: inline-block;
+    margin-left: 45px;
+}
+.botao-sub-res {
+    background-color: #55a6d8;
+    border: 1px solid #00000066;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px #00000066;  
+    transition: .3s;
+}
+.botao-sub-res:hover {
+    background-color: #2b6386;
+    cursor: pointer;
+}
+#sub{
+    width: 100px;
+    height: 40px;
+ 
+}
+
+#res{
+    width: 100px;
+    height: 40px;  
+}
